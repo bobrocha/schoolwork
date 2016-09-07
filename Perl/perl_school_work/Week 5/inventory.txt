@@ -1,0 +1,6 @@
+123456|iPad|Tablet device|549.00
+963852|iPod|Music device |199.99
+741852|iMac|Computer|999.99
+951753|iPhone|Smart Phone|649.99
+357159|MacBook|Laptop|899.99
+156354|MacPro|Workstation|2999.00

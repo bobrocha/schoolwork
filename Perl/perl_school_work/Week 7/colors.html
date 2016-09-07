@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Colors</title>
+  </head>
+  <body>
+	<form action="/cgi-bin/colors.cgi" method="post">
+	<h2>Sign up and choose your options</h2>
+		<table border="1">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="name" /></td>
+			<tr/>
+			<tr>
+				<td>Select Membership Type</td>
+				<td><input type="radio" name="member" value="0" />Life<input type="radio" name="member" value="1" />Annual<input type="radio" name="member" value="2" />Trial</td>
+			<tr/>
+			<tr>
+				<td>Choose Background Color</td>
+				<td>
+					<select name="color">
+						<option value="rd">Red</option>
+						<option value="gr">Green</option>
+						<option value="bl">Blue</option>
+						<option value="bw">Brown</option>
+						<option value="og">Orange</option>
+						<option value="bk">Black</option>
+						<option value="yl">Yellow</option>
+					</select>
+				</td>
+			<tr/>
+			<tr>
+				<td colspan="2" align="center">
+				<input type="submit" value="Enter" /></td>
+			<tr/>
+		</table>
+	</form>
+  </body>
+</html>

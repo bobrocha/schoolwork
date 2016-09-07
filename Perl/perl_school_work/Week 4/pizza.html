@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pizza Pizzazz Order Form</title>
+  </head>
+  <body>
+  	<h3>Pizza Pizzazz Order Form</h3>
+	<form action="/cgi-bin/pizza.cgi" method="post">
+		Choose size:<br />
+		Regular $6.00<input type="radio" name="size" value="regular" /><br />
+		Large $8.00<input type="radio" name="size" value="large" /><br />
+		Family $11.00<input type="radio" name="size" value="family" /><br />
+		-----------------------------------
+		<br />
+		Choose toppings ($1.25 each):<br />
+		Pepperoni <input type="checkbox" name="topping" value="Pepperoni"><br />
+		Mushrooms <input type="checkbox" name="topping" value="Mushrooms"><br />
+		Green Peppers <input type="checkbox" name="topping" value="Green Peppers"><br />
+		Jalapeno Peppers <input type="checkbox" name="topping" value="Jalapeno Peppers"><br />
+		Anchovies <input type="checkbox" name="topping" value="Anchovies"><br />
+		Sausage <input type="checkbox" name="topping" value="Sausage"><br />
+		Extra Cheese <input type="checkbox" name="topping" value="Extra Cheese"><br />
+		-----------------------------------
+		<br />
+		Name: <input type=text" name="name"></br />
+		Telephone: <input type="text" name="tel"><br />
+		Address: <input type="text" name="address"><br />
+		<br />
+		<input type="submit" value="Place Order">
+	</form>
+  </body>
+</html>

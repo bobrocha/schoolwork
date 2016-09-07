@@ -1,0 +1,25 @@
+/*
+A query that displays the make, model, and price
+for all 2013 Chevrolet vehicles priced between
+$20000 and $50000, sorted by model in ascending order
+*/
+
+SELECT make, model, price
+FROM product
+WHERE year = 2013
+AND make = 'Chevrolet'
+AND price BETWEEN 20000 AND 50000
+ORDER BY model ASC;
+
+/*
+A query that displays the year, make, model, and date sold
+for all vehicles sold by Nick Slick. The output should be in
+chronological order by date sold, with the first sale at the top
+of the output
+*/
+
+SELECT `year`, `make`, `model`, sold.date
+FROM product, sold
+WHERE sold.vin = product.vin
+AND sold.sellerid = 2
+ORDER BY `date` ASC;

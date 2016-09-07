@@ -1,0 +1,25 @@
+963789,896 Logitech Road San Mateo California,Logitech,001,40
+741239,954 Apple Road Cupertino California,Apple,001,80
+985697,2285 Microsoft Lane Redmond Washington,Microsoft,001,80
+854698,8745 Youtube Road Palo Alto California,Youtube,001,35
+965874,5886 Google Lane San Mateo California,Google,001,10
+326574,8996 Ebay Lane San Francisco California,Ebay,002,65
+944223,7852 PayPal Road San Francisco California,PayPal,002,40
+312689,74452 Linkedin Road San Francisco California,LinkedIn,002,45
+225869,5874 Facebook Lane Palo Alto California,Facebook,002,80
+789654,9875 Okcupid Road San Francisco California,Okcupid,002,35
+857963,911 Road Fresno California,State Department,003,50
+253698,9875 Dell Road Houston Texas,Dell,003,40
+965478,8745 HP Road Cupertino California,HP,003,50
+186458,9527 Intuit Road Palo Alto California,Intuit,003,40
+351296,8679 Lenovo Avenue San Mateo California,Lenovo,003,40
+675964,5555 Western Digital Road San Francisco California,Western Digital,004,40
+612985,6666 Acer Road San Francisco California,Acer,004,40
+653674,7777 Intel Road San Francisco Califonria,Intel,004,35
+957296,8888 Seagate Road San Francisco California,Seagate,004,50
+852169,9999 Panasonic Road San Mateo California,Panasonic,004,40
+246912,2222 Samsung Drive Cupertino California,Samsung,005,40
+371956,3333 LG Drive Berkley California,LG,005,40
+819736,PNY Avenue San Bruno California,PNY,005,40
+915745,Twitter Road San Mateo Clifonria,Twitter,005,50
+197548,Vimeo Road San Bruno California,Vimeo,005,40

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Registration</title>
+  </head>
+  <body>
+  	<h3 align="center">Acme Registration</h3>
+	<form action="/cgi-bin/registration.cgi" method="post">
+		<table border="1" align="center">
+			<tr><td>First and Last Name</td><td><input type="text" name="name" /></td><tr/>
+			<tr><td>Social Security # (digits only)</td><td><input type="text" name="ssn" /></td><tr/>
+			<tr><td colspan="2">Password Rules:
+					<ul>
+						<li>begins with a single upper case character followed by</li>
+						<li>two digits followed by</li>
+						<li>a single space followed by</li>
+						<li>two <strong>or</strong> three lower case letters followed by</li>
+						<li>one special character (not a letter or digit)</li>
+					</ul>
+			</td><tr/>
+			<tr><td>Password</td><td><input type="password" name="password" /></td><tr/>
+			<tr><td colspan="2" align="center"><input type="submit" value="Enter" /></td><tr/>
+		</table>
+	</form>
+  </body>
+</html>
